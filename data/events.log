@@ -1,0 +1,16 @@
+{"Deposit":{"account_id":"alice","asset":"USD","amount":100000000}}
+{"Deposit":{"account_id":"bob","asset":"BTC","amount":100000000}}
+{"OrderPlaced":{"id":1,"account":"alice","market":"BTC-USD","side":"Buy","order_type":"Limit","price":100000,"qty":1,"remaining":1,"timestamp":1}}
+{"OrderPlaced":{"id":2,"account":"bob","market":"BTC-USD","side":"Sell","order_type":"Limit","price":100000,"qty":1,"remaining":1,"timestamp":2}}
+{"Trade":{"trade_id":1,"buy_order_id":1,"sell_order_id":2,"price":100000,"qty":1,"timestamp":2}}
+{"Deposit":{"account_id":"alice","asset":"USD","amount":100000000}}
+{"Deposit":{"account_id":"bob","asset":"BTC","amount":100000000}}
+{"OrderPlaced":{"id":1,"account":"alice","market":"BTC-USD","side":"Buy","order_type":"Limit","price":100000,"qty":1,"remaining":1,"timestamp":1}}
+{"OrderPlaced":{"id":2,"account":"bob","market":"BTC-USD","side":"Sell","order_type":"Limit","price":100000,"qty":1,"remaining":1,"timestamp":2}}
+{"Trade":{"trade_id":1,"buy_order_id":1,"sell_order_id":2,"price":100000,"qty":1,"timestamp":2}}
+{"Deposit":{"account_id":"alice","asset":"USD","amount":100000000}}
+{"Deposit":{"account_id":"bob","asset":"BTC","amount":100000000}}
+{"OrderPlaced":{"id":1,"account":"alice","market":"BTC-USD","side":"Buy","order_type":"Limit","price":100000,"qty":1,"remaining":1,"timestamp":1}}
+{"OrderPlaced":{"id":2,"account":"bob","market":"BTC-USD","side":"Sell","order_type":"Limit","price":100000,"qty":1,"remaining":1,"timestamp":2}}
+{"Trade":{"trade_id":1,"buy_order_id":1,"sell_order_id":2,"price":100000,"qty":1,"timestamp":2}}
+{"Deposit":{"account_id":"alice","asset":"fx","amount":100000}}
